@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Source+Sans+Pro');
+
+html{
+	background-image: url("../images/background.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    color: white!important;
+}
+
+body{
+	background-color:transparent!important;
+	line-height: 1.5;
+	color: #f5f5f5;
+    font-family: 'Source Sans Pro', sans-serif;	
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Abril Fatface', cursive;
+	margin-top: 0px;
+	color: white!important;
+}
+p{
+	margin-bottom: 1rem;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:after{
+	content: '/';
+	padding-left: 30px;
+}
+.navbar-inverse .navbar-nav>li:last-child>a:after{
+	content: '';
+}
+
+@media (max-width: 768px){
+	.navbar-inverse .navbar-nav>li>a:after{
+		content:'';
+	}
+	p{
+		font-size: 1px;
+	}
+}
+.container>.navbar-header{
+	width:100%;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.jumbotron{
+background-image: url("../images/Portfolio.jpg");
+	height: 550px;
+	background-attachment:inherit;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	margin-top: 70px;
+}
+    /**/
+
+#jumbo-h1{
+	text-align: left;
+	color: white;
+    font-size: 120px;	
+}
+.container-fluid{
+	background-image: url("../images/background.jpg");
+}
+.jumbotron .lead{
+	color: white;
+	font-size: 30px;
+	text-align: left;
+}
+
+@media (max-width: 998px){
+	#jumbo-h1{
+		font-size: 72px;
+	}
+	.tenth:hover{
+	width: 100%;
+    }   
+	.puc:hover{
+	width: 100%;
+    }
+	.degree:hover{
+	width: 100%;
+    }
+}
+@media (max-width: 768px){
+	.nav{
+		width: 412px;
+	}
+	#jumbo-h1{
+		font-size: 40px;
+	}
+	.jumbotron .lead{
+		font-size: 20px;
+	}
+	.jumbotron{
+		max-height: 200px;
+		padding-top: 0px!important;
+	}
+	#about-me{
+		text-align: left;
+		max-width: 100%;
+		max-height: 350px;
+        overflow: hidden;
+         }
+
+    .about-me-sec h1{
+        font-size: 25px;
+        width: 50%
+    }
+
+    .about-me-sec p, .about-me-img p, .skills p{
+        font-size: 10px;
+    }
+    .puc,.degree{
+    	background-attachment: inherit;
+    	max-height: 150px;
+        width: 100%;
+    	background-size: 100% 100%;
+    	padding-top: 50px;
+    	text-align: center;
+    } 
+    .tenth p,.puc p,.degree p{
+         font-size: 10px;
+    }
+    .tenth{
+    	background-attachment: inherit;
+    	max-height: 150px;
+    }
+    .puc p,.puc h2{
+    	color:black!important;
+    }
+    .tenth:hover{
+	width: 100%;
+    }   
+	.puc:hover{
+	width: 100%;
+    }
+	.degree:hover{
+	width: 100%;
+    }
+    .about-me-content{
+    	width:50%;
+    }
+   .navbar-nav>li>a{
+        margin-top: 3px;
+        border: white 1px solid;
+        margin-bottom: 3px;
+        width: auto;
+	}
+    .about-me-img{
+        padding-top: 70px;   
+    }
+    .i1,.i2,.i3,.i4{
+    	font-size: 20px;
+    }
+}
+.navbar-inverse{
+	padding: 3px;
+} 
+#about-me{
+	height: 450px;
+	color: white;
+	line-height: 40px;
+	text-overflow: all;
+	overflow: hidden;
+}
+.academics{
+	width: 100%
+	background-color:transparent!important;
+	padding-left:100px;
+
+}
+.tenth{
+	height: 350px;
+	width: 70%;
+	background-image: url("../images/tenth.jpg");
+    background-position:center;
+    background-size: 2000px;
+    -webkit-transition:width 1s;
+	transition: width 1s;
+}
+.puc span{
+	color: black;
+}
+.puc{
+	background-image: url("../images/puc.jpg");
+	height: 350px;
+	width: 70%;
+	background-size: 1000px;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    color: black;
+    -webkit-transition:width 1s;
+	transition: width 1s;
+}
+.degree{
+	background-image: url("../images/degree.jpg");
+	height: 350px;
+	width: 70%;
+	background-size: 1000px;
+    background-position:right-bottom;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    color: black;
+    overflow: hidden;    
+    -webkit-transition:width 1s;
+	transition: width 1s;
+
+}
+.flex-box{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.tenth,.puc,.degree{
+	
+}
+.tenth,.puc,.degree{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	border-radius: 10px;
+}
+.tenth:hover,.puc:hover,.degree:hover{
+	-webkit-filter:grayscale(5%);
+	filter:grayscale(5%);
+}
+.container-fluid{
+	background-image:none;
+}
+.academics{
+	content: center;
+}
+.about-me-img img{
+	width: 300px;
+    height:auto;
+    clear: none;
+    object-fit: cover;
+}
+@media (min-width: 768px)
+{
+	.about-me-img img{
+		padding-top: 50px;
+	}
+	.page-1,.page-2,.page-3{
+	margin-left: 110px;
+	margin-right: 80px;
+    }
+}
+.project{
+	line-height: 30px;
+	border-radius: 5px;
+	margin: 50px 50px;
+	padding-top: 10px;
+	width: 90%;
+	height:450px;
+	background-image:url(../images/shockabsorber1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+@media (max-width: 768px){
+	.project{
+		height: 500px;
+	}
+	.carousel-control{
+		height: 500px;
+	}
+	.form{
+		width: 100%;
+	}
+}
+.pblack{
+	color: black!important;
+}
+ 
+.contacts{
+	width: 100%;
+	height: auto;
+	background-color: #F1F1F1!important;
+	border-radius: 10px;
+}
+.form
+{
+	width: auto;
+	height: auto;
+}
+input{
+	padding:7px;
+	width:100%;
+}
+label{
+	padding: 5px;
+}
+form{
+	background-color: #303030;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+.btn{
+	margin-top: 20px;
+	background-color: #45A049;
+    color: white;
+}
+.white{
+	color: white;
+}
+.feedback{
+	height: 100px;
+}
+.glyphi{
+	padding: 10px;
+	
+}
+.phone{
+	padding-left: 500px;
+	display: inline;
+}
+.skills{
+	width:100%;
+	height: auto;
+	background-color: #F1F1F1;
+	display:inline;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+.html{
+	width: 100px;
+	height: auto;
+	padding-left: 20px;
+} 
+.skills p,h1{
+	padding-left:10px; 
+}
+@media (max-width: 768px)
+{
+	.html{
+		width: 75px;
+
+	}
+	footer p{
+		font-size: 10px;
+	}
+	.skills{
+		margin-left: 0px!important;
+	}
+    .pblack{
+    	font-size: 10px;
+    }
+}
+.img-responsive{
+	display: inline!important;
+}
+.skills{
+	margin-top: 0px;
+	margin-bottom: 40px;
+    margin-left: 20px;
+}
+footer{
+	background-color: #333;
+	height: 50px;
+	margin-top: 20px;
+}
+.carousel-control{
+	height: 450px;
+}
+.btn{
+	width: 100%;
+}
+.skills h1, .skills p{
+	color: black!important;
+}
+.contacts h1 {
+	color: black!important;
+}
+.form h1{
+	color: white!important;
+}
