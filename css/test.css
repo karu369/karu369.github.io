@@ -363,8 +363,8 @@ form{
 	display: inline!important;
 }
 .skills{
-	margin-top: 0px;
-	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
     margin-left: 20px;
 }
 footer{
@@ -387,3 +387,8 @@ footer{
 .form h1{
 	color: white!important;
 }
+.contacts{
+	padding: 0px!important;
+	margin: 0px!important;
+}
+
